@@ -51,4 +51,4 @@ const handleSubmit = (e) => {
     .then(() => console.log("Form successfully submitted"))
     .catch((error) => alert(error));
 };
-</script>script>
+</script>
