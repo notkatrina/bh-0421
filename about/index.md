@@ -10,7 +10,7 @@ eleventyNavigation:
 <p>I am a colormatching tool. Talk to me below! <p>
 
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" id="pizzaOrder">
   <p>
     <label>Your Hair Color : <input type="text" name="hair-color" /></label>
   </p>
@@ -33,3 +33,22 @@ eleventyNavigation:
     <button type="submit">Send</button>
   </p>
 </form>
+
+<script>
+  document
+  .querySelector("form")
+  .addEventListener("submit", handleSubmit);
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  let myForm = document.getElementById("pizzaOrder");
+  let formData = new FormData(myForm);
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+};
+</script>script>
