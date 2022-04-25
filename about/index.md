@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a colormatching tool. Talk to me below! 
+<p>I am a colormatching tool. Talk to me below! <p>
 
 
 <form name="contact" method="POST" data-netlify="true">
