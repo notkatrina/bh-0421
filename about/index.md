@@ -11,7 +11,7 @@ eleventyNavigation:
 
 
 <div id="pizzaOrder">
-<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true"   netlify-honeypot="bot-field" >
+<form name="contact" method="POST" data-netlify-recaptcha="true"  action="/success" data-netlify="true"   netlify-honeypot="bot-field" >
   <p>
     <label>Your Hair Color : <input type="text" name="hair-color" /></label>
   </p>
