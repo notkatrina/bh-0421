@@ -10,12 +10,19 @@ eleventyNavigation:
 <p>I am a colormatching tool. Talk to me below! <p>
 
 
-<form name="contact" method="POST" data-netlify="true" id="pizzaOrder">
+<div id="pizzaOrder">
+<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true"   netlify-honeypot="bot-field" >
   <p>
     <label>Your Hair Color : <input type="text" name="hair-color" /></label>
   </p>
+  <div data-netlify-recaptcha="true"></div>
   <p>
     <label>Your Needs: <input type="text" name="needs" /></label>
+  </p>
+   <p class="hidden">
+    <label>
+      How much hair do you like? <input name="bot-field" />
+    </label>
   </p>
   <p>
     <label>Your Needs: <select name="role[]" multiple>
@@ -33,6 +40,7 @@ eleventyNavigation:
     <button type="submit">Send</button>
   </p>
 </form>
+</div>
 
 <script>
   document
