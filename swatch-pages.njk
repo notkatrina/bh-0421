@@ -1,0 +1,24 @@
+---
+pagination:
+    data: swatches
+    size: 1
+    alias: swatch
+permalink: "color/{{ swatch.name | slug }}/"
+tags: "{{ swatch.tags }}"
+---
+
+<h1>{{ swatch.name }}</h1>
+
+<div class="hair" style="{{ swatch.dye }}"></div>
+
+<h3>{{ swatch.name }} can be described as a {{ swatch.desc }}  color.</h3>
+
+
+<h2> Other Swatches </h2>
+<ul>
+{%- for post in collections.swatch -%}
+  <li>{{ page.data.title }}</li>
+{%- endfor -%}
+</ul>
+
+

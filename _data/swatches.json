@@ -1,0 +1,32 @@
+[
+  {
+    "tags": "['basic', 'natural','single', 'dark']",
+    "name": "2",
+    "desc": "black brown",
+    "dye": "background-color: #291f1b; background-blend-mode: overlay;"
+  },
+  {
+   "tags": "['basic', 'natural','single', 'dark']",
+    "name": "1",
+    "desc": "black",
+    "dye": "background-color: #000; background-blend-mode: darken;"
+  },
+   {
+    "tags": "['basic', 'natural','single', 'dark']",
+    "name": "1B",
+    "desc": "off black",
+    "dye": "background-color: #212120; background-blend-mode: darken;"
+  },
+  {
+    "tags": "['single', 'red', 'dark']",
+    "name": "99J",
+    "desc": "cool, dark red brown",
+    "dye": "background-color: #451328; background-blend-mode: darken;"
+  },
+  {
+     "tags": "['blonde', 'natural','single', 'light']",
+    "name": "27",
+    "desc": "classic golden blonde",
+    "dye": "background-color: #291f1b; background-blend-mode: darken;"
+  }
+]
