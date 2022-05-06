@@ -14,5 +14,5 @@ how to define linear-gradient(100deg, red, yellow); */
 .hair {
   /*  background: url("img_tree.gif"), linear-gradient(100deg, red, yellow);*/
  background: url("img_tree.gif");
-  background-blend-mode: overlay;
+ /* background-blend-mode: overlay; */
 }
