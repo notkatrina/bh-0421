@@ -15,10 +15,9 @@ how to define linear-gradient(100deg, red, yellow); */
   /*  background: url("img_tree.gif"), linear-gradient(100deg, red, yellow);*/
  background-image: url("/img/1.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
- width: 300px;
+ width: 200px;
  height: 200px;
-position: center;
+
  /* background-blend-mode: overlay; */
 }
