@@ -6,11 +6,12 @@
     "dye": "background-color: #291f1b; background-blend-mode: overlay;"
   },
   {
-   "tags": "['basic', 'natural','single', 'dark']",
-    "name": "1",
-    "desc": "classic black",
-    "dye": "background-color: #000; background-blend-mode: overlay;"
+   "tags": "['basic', 'blonde','single', 'red']",
+    "name": "33",
+    "desc": "dark red blonde",
+    "dye": "background-color: #111213; background-blend-mode: overlay;"
   },
+  
    {
     "tags": "['basic', 'natural','single', 'dark']",
     "name": "1B",
