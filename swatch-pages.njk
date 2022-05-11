@@ -16,9 +16,10 @@ layout: layouts/base.njk
 
 
 <h2> Other Swatches </h2>
+
 <ul>
-{%- for post in collections.swatch -%}
-  <li>{{ page.data.title }}</li>
+{%- for swatch in collections.swatches | reverse -%}
+  <li><a href ="{{ page.data.permalink }" alt="Swatch page for the color {{ page.data.name } ">{{ page.data.name }}</a></li>
 {%- endfor -%}
 </ul>
 
