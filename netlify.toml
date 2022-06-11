@@ -5,7 +5,6 @@
   [[headers]]
   for = "/about"
   [headers.values]
-  # Needed for Google Optimize mobile preview https://support.google.com/optimize/answer/7388531?hl=en
     X-Frame-Options = "sameorigin"
 
   for = "/"
