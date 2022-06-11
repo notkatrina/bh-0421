@@ -1,4 +1,14 @@
 [build]
   publish = "_site"
   command = "npm run build"
-[[edge_functions]]
+
+  [[headers]]
+  for = "/about"
+  [headers.values]
+  # Needed for Google Optimize mobile preview https://support.google.com/optimize/answer/7388531?hl=en
+    X-Frame-Options = "sameorigin"
+
+  for = "/"
+  [headers.values]
+  # Needed for Google Optimize mobile preview https://support.google.com/optimize/answer/7388531?hl=en
+    X-Frame-Options = "SAMEORIGIN"
